@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88a1ae2-6268-476e-91d5-de9315030d6f" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="a88a1ae2-6268-476e-91d5-de9315030d6f" name="Changes" comment="eureka instance config dynamic">
+      <change afterPath="$PROJECT_DIR$/consumer-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign/src/main/java/org/example/cloud/consumer/FeignConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign/src/main/java/org/example/cloud/consumer/client/UserFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign/src/main/java/org/example/cloud/consumer/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign/src/main/java/org/example/cloud/consumer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign/src/main/java/org/example/cloud/consumer/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer-feign/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +54,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/user/IdeaProjects/spring-cloud-eureka/user-service-8002/src/main/resources",
+    "last_opened_file_path": "/Users/user/IdeaProjects/spring-cloud-eureka/consumer-feign/src/main/java/org/example/cloud/consumer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,11 +68,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/consumer-feign/src/main/java/org/example/cloud/consumer" />
+      <recent name="$PROJECT_DIR$/consumer-feign/src/main/resources" />
       <recent name="$PROJECT_DIR$/user-service-8002/src/main/resources" />
       <recent name="$PROJECT_DIR$/user-service-8002/src/main/java" />
       <recent name="$PROJECT_DIR$/eureka-server-7002/src/main/resources" />
-      <recent name="$PROJECT_DIR$/eureka-server-7002/src/main/java" />
-      <recent name="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.cloud.consumer.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,7 +85,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication-8001">
+  <component name="RunManager" selected="Spring Boot.FeignConsumerApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="consumer" />
@@ -100,6 +112,14 @@
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="eureka-server-7002" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.cloud.consumer.FeignConsumerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +153,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Spring Boot.FeignConsumerApplication" />
       <item itemvalue="Spring Boot.EurekaServer-7002" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication-8001" />
@@ -141,8 +162,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserServiceApplication-8002" />
         <item itemvalue="Spring Boot.UserServiceApplication-8001" />
+        <item itemvalue="Spring Boot.UserServiceApplication-8002" />
         <item itemvalue="Spring Boot.EurekaServer-7001" />
       </list>
     </recent_temporary>

@@ -15,6 +15,7 @@
         <module>eureka-server-7001</module>
         <module>eureka-server-7002</module>
         <module>user-service-8002</module>
+        <module>consumer-feign</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
