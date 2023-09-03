@@ -1,4 +1,4 @@
-package user.entity;
+package org.example.cloud.user.entity;
 
 import lombok.Data;
 

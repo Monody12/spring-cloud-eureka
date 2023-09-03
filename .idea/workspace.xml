@@ -4,18 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88a1ae2-6268-476e-91d5-de9315030d6f" name="Changes" comment="" />
+    <list default="true" id="a88a1ae2-6268-476e-91d5-de9315030d6f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/java/org/example/cloud/eureka/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/java/eureka/EurekaServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2UrwQLloSuxGwfZeRXkKWecvA8J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,13 +66,118 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "/Users/user/IdeaProjects/spring-cloud-eureka/user-service-8002/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-service-8002/src/main/resources" />
+      <recent name="$PROJECT_DIR$/user-service-8002/src/main/java" />
+      <recent name="$PROJECT_DIR$/eureka-server-7002/src/main/resources" />
+      <recent name="$PROJECT_DIR$/eureka-server-7002/src/main/java" />
+      <recent name="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserServiceApplication-8001">
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.cloud.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer-7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="eureka-server-7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.cloud.eureka.EurekaServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.cloud.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer-7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="eureka-server-7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="eureka.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication-8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="user-service-8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.cloud.user.UserServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.cloud.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication-8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="user-service-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.cloud.user.UserServiceApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.cloud.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.EurekaServer-7002" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
+      <item itemvalue="Spring Boot.UserServiceApplication-8001" />
+      <item itemvalue="Spring Boot.UserServiceApplication-8002" />
+      <item itemvalue="Spring Boot.EurekaServer-7001" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserServiceApplication-8001" />
+        <item itemvalue="Spring Boot.UserServiceApplication-8002" />
+        <item itemvalue="Spring Boot.EurekaServer-7001" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,8 +186,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693710991810</updated>
-      <workItem from="1693710993049" duration="2000" />
+      <workItem from="1693710993049" duration="366000" />
+      <workItem from="1693718294234" duration="8981000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/controller/UserController.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
