@@ -4,40 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88a1ae2-6268-476e-91d5-de9315030d6f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/cloud/consumer/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/java/org/example/cloud/eureka/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/java/eureka/EurekaServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/java/org/example/cloud/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/java/org/example/cloud/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service-8002/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="a88a1ae2-6268-476e-91d5-de9315030d6f" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-7001/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server-7002/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,8 +141,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserServiceApplication-8001" />
         <item itemvalue="Spring Boot.UserServiceApplication-8002" />
+        <item itemvalue="Spring Boot.UserServiceApplication-8001" />
         <item itemvalue="Spring Boot.EurekaServer-7001" />
       </list>
     </recent_temporary>
@@ -187,12 +156,25 @@
       <option name="presentableId" value="Default" />
       <updated>1693710991810</updated>
       <workItem from="1693710993049" duration="366000" />
-      <workItem from="1693718294234" duration="8981000" />
+      <workItem from="1693718294234" duration="10184000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1693730659423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693730659423</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
